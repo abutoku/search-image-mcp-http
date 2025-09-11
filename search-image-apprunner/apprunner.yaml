@@ -1,0 +1,13 @@
+version: 1.0
+runtime: docker
+build:
+  commands:
+    build:
+      - echo "No build commands"
+run:
+  runtime-version: latest
+  command: node dist/server.js
+  network:
+    port: 8080
+    env: PORT
+  env:
