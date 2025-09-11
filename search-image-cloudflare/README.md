@@ -163,6 +163,8 @@ Claude Desktopの設定ファイル（`claude_desktop_config.json`）を編集�
 
 設定後、Claude Desktopを再起動します。
 
+[Claud Desktopのカスタムコネクタには対応できていない](https://github.com/cloudflare/ai/tree/main/demos/remote-mcp-authless)
+
 ## トラブルシューティング
 
 ### UNSPLASH_ACCESS_KEYエラー
@@ -198,3 +200,18 @@ npm run tail
 ## ライセンス
 
 MIT
+
+## コマンド
+
+```
+npm install -g wrangler
+```
+```
+wrangler login
+```
+```
+wrangler logout
+```
+```
+wrangler whoami
+```
